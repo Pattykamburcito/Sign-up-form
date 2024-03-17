@@ -1,0 +1,157 @@
+@font-face {
+    font-family: odin_lined;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9fafb;
+}
+
+.main-container{
+    display: flex;
+}
+
+aside{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo-container{
+    background-color: #090c0a54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+.logo-container img{
+    width: 110px;
+}
+
+.logo-container h1{
+    font-family: odin-lined;
+    font-size: 6rem;
+    color: #4bac9fb4;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container{
+    padding: 80px 180px 0px 40px;
+}
+
+.text-container h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(36, 41, 39);
+font-weight: bold;
+font-size: 1.3rem;
+margin-bottom: 15px;
+}
+
+.form-section{
+    margin-top: 12px;
+    background-color: #ffffff;
+    padding: 20px 110px 20px 40px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 12px -8px rgb(0, 0, 0, 0.70);
+}
+
+.form-section p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(36, 41, 39);
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+form div label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(36, 41, 39);
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+form div input{
+    border: solid 1px #E5E7EB;
+    border-radius: 5px;
+    height: 2.1rem;
+    padding-left: 10px;
+    margin-bottom: 12px;
+    width:60%;
+    outline: none;
+}
+
+form div input:focus{
+    border: solid 1.5px rgba(110, 204, 157, 0.671);
+    box-shadow: 4px 4px 12px -8px rgba(83, 177, 214, 0.75);
+}
+
+.error{
+    border: solid 1.5px rgb(193, 53, 53);
+    box-shadow: 4px 4px 12px -8px rgba(193, 53, 53,0.75);
+}
+
+.button-container{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.button-container button{
+    background-color: rgb(43, 124, 93);
+    box-shadow: 4px 4px 12px 8px rgba(43, 124, 93, 0.685);
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.button-container p{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.button-container a{
+    text-decoration: none;
+    color: rgb(17, 117, 71);
+}
+
+.button-container a:hover{
+    text-decoration: underline;
+}
